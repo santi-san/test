@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body {
+    height: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;}
+header{
+    height: 100vh;
+    background: radial-gradient(circle , #F9E866 0% , #FFAE00 100%);
+    /*url('../Proyecto/img/1a.png'), linear-gradient(90deg, #FFAE00 0% , #F9E866 100%);*/
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    font-family: 'Syne', sans-serif;
+    color:white;
+    font-size: 3em;
+}
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+}*/
+
+.nav-link {
+    color: white !important;
+    font-family: 'Syne', sans-serif;
+    font-size: 1.5em;
+} 
+.big-text {
+    font-size: 5em;
+    color:white;
+    font-family: 'Syne', sans-serif;
+}
+.big-text-2 {
+    font-size: 6em;
+    color:white;
+    font-family: 'Syne', sans-serif;
+}
+.img-hero {
+    padding: 2em 0 0 2em;
+}
+
+.h-90 {
+    height: calc(100vh - 10vh)
+}
